@@ -23,5 +23,6 @@ $helperSet = new \Symfony\Component\Console\Helper\HelperSet([
 $application->setHelperSet($helperSet);
 
 $application->add(new \Github\Commands\GetUsers());
+$application->add(new \Github\Commands\CreateTables());
 
 $application->run();
