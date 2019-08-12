@@ -7,7 +7,7 @@ git clone https://github.com/neonspaceman/3davinci-test.git
 ```
 composer update
 ```
-3. Настроить подключение к база, изменив файл в корне проекта .env
+3. Настроить подключение к базe, изменив файл в корне проекта .env
 4. Создать необходимые таблицы в базе данных, выполнив команду:
 ```
 php app/console.php app:create-tables
