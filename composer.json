@@ -1,0 +1,23 @@
+{
+    "name": "neonspaceman/3davinci-test",
+    "description": "Test task for 3DaVinci",
+    "type": "project",
+    "require": {
+        "php": "^7",
+        "symfony/console": "^4.3",
+        "doctrine/dbal": "^2.9",
+        "symfony/http-client": "^4.3",
+        "symfony/dotenv": "^4.3"
+    },
+    "authors": [
+        {
+            "name": "Dmitry Monetchikov",
+            "email": "dmmnt@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
